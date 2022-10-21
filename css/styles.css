@@ -12,10 +12,18 @@
 body {
     background-color: var(--primary-white-color);
     color var(--primary-text-color);
+    font-family: 'Roboto', sans-serif;
+    font-size: 
+    line-height: 
+    letter-spacing: 
 }
 
 .logo {
     color: var(--secondary-text-color);
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-size: 26px;
+    line-height: 31px;
 }
 
 .logo span {
@@ -35,6 +43,11 @@ body {
 
 .site-nav .link {
     color:  var(--primary-text-color);
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
 }
 
 .list {
@@ -42,11 +55,21 @@ body {
 }
 
 .contacts .link {
-    color: var(--accent-color)
+    color: var(--accent-color);
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
 }
 
 .contacts .number {
     color: var(--title-text-color);
+    text-decoration: none;
+    font-family: 'Roboto';  
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
 }
 
 /* Hero */
@@ -56,14 +79,25 @@ body {
 }
 
 .hero-title {
-    color: var(--white-color)
+    color: var(--white-color);
+    font-family: 'Roboto';  
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
 }
 
 .button {
     background-color: var(--accent-color);
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    
 }
 .button.primary {
-    color: var(--white-color);  
+    color: var(--white-color); 
+    
 }
 
 /* Feature */
@@ -96,12 +130,32 @@ body {
 
 .inscription {
     color: var(--white-color);
+    text-decoration: none;
 }
 
 .inscription span {
     color: var(--accent-color) ;
 }
  
+.text-footer {
+    color: var(--white-color)
+}
+
+.contacts-list .link {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+.contacts-list .number {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
+/* Portfolio */
+
+.button.secondary {
+    background-color: var(--tertiary-bg-color);
+
+}
 
 
 
