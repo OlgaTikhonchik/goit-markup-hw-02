@@ -208,18 +208,23 @@ body {
 
 }
 
-.text-foto {
+.gallery-link {
+    font-family: 'Roboto';
+    text-decoration: none; 
+}
+
+.text {
     color: var(--title-text-color);
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.88px;
+    line-height: 1.88;
     letter-spacing: 0.03em;  
-
 
 }
 
 
 .title-gallery {
+    color: var(--primary-text-color);
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
